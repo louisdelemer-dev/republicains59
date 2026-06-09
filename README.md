@@ -1,12 +1,16 @@
-# republicains59
+# Les Républicains du Nord - site statique
 
-Site statique de la Fédération du Nord des Républicains.
+Site prêt pour GitHub Pages.
 
-## Publication GitHub Pages
-Dans GitHub : Settings > Pages > Deploy from a branch > main > /root.
+## Publication
+1. Déposer tous les fichiers à la racine du dépôt `republicains59`.
+2. Aller dans **Settings > Pages**.
+3. Source : **Deploy from a branch**.
+4. Branch : `main`, dossier `/root`.
 
-## Modifications incluses
-- Logo officiel intégré dans `assets/img/logo-federation-nord.png`.
-- Photos d’illustration ajoutées dans `assets/img/`.
-- Police globale : Source Sans 3.
-- Animations au survol sur boutons, cartes, boîtes, navigation et agenda.
+## Personnalisation intégrée
+- Logo de la Fédération du Nord dans `assets/img/logo-federation-nord.png`.
+- Photos d’illustration dans `assets/img/`.
+- Style visuel plus distinctif : bande tricolore, grands aplats, cartes accentuées, signature “59”.
+- Police globale : **Manrope**.
+- Animations fluidifiées via transitions GPU, ombres allégées et respect de `prefers-reduced-motion`.
