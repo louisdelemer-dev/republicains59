@@ -1,3 +1,1 @@
-const toggle = document.querySelector('.menu-toggle');
-const nav = document.querySelector('.main-nav');
-if (toggle && nav) toggle.addEventListener('click', () => nav.classList.toggle('open'));
+const toggle=document.querySelector('.menu-toggle');const nav=document.querySelector('.main-nav');if(toggle&&nav){toggle.addEventListener('click',()=>nav.classList.toggle('open'));}document.querySelectorAll('.card,.hero-card,.info-box,.mini-box,.agenda-item').forEach((el,i)=>{el.classList.add('reveal');el.style.animationDelay=(i*55)+'ms';});

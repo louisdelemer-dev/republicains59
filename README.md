@@ -2,12 +2,11 @@
 
 Site statique de la Fédération du Nord des Républicains.
 
-## Déploiement GitHub Pages
+## Publication GitHub Pages
+Dans GitHub : Settings > Pages > Deploy from a branch > main > /root.
 
-1. Déposer tous les fichiers à la racine du dépôt GitHub `republicains59`.
-2. Aller dans `Settings > Pages`.
-3. Source : `Deploy from a branch`.
-4. Branche : `main` ; dossier : `/ (root)`.
-5. Enregistrer.
-
-Le site sera publié automatiquement par GitHub Pages.
+## Modifications incluses
+- Logo officiel intégré dans `assets/img/logo-federation-nord.png`.
+- Photos d’illustration ajoutées dans `assets/img/`.
+- Police globale : Source Sans 3.
+- Animations au survol sur boutons, cartes, boîtes, navigation et agenda.
