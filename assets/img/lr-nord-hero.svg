@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0057B8"/>
+      <stop offset="55%" stop-color="#1E73E8"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+    <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M 80 0 L 0 0 0 80" fill="none" stroke="rgba(255,255,255,.18)" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="900" fill="url(#g)"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+  <path d="M0 700 C260 610 360 760 610 670 C880 572 1010 610 1200 520 C1380 436 1480 460 1600 390 L1600 900 L0 900 Z" fill="rgba(255,255,255,.28)"/>
+  <path d="M150 610 L360 470 L560 610 Z" fill="rgba(255,255,255,.40)"/>
+  <path d="M750 620 L980 430 L1230 620 Z" fill="rgba(255,255,255,.32)"/>
+  <text x="120" y="190" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="800" fill="#ffffff">Fédération du Nord</text>
+  <text x="120" y="270" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700" fill="#ffffff">Les Républicains • 59</text>
+</svg>

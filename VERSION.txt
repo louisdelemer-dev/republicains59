@@ -1,1 +1,15 @@
-LR Nord Refresh - Bleu LR national, Inter, animations fluides
+Republicains59 - LR National Style v3
+Date de génération : 2026-06-12 14:56
+
+Changements visibles :
+- remplacement complet de la feuille de style principale ;
+- bleu LR plus lumineux : #0057B8 ;
+- police globale : Inter ;
+- hero plus proche de l'univers republicains.fr ;
+- bouton Adhérer / Militer élargi ;
+- animations fluides avec cubic-bezier et translate3d ;
+- signature graphique 59 ;
+- asset SVG ajouté : assets/img/lr-nord-hero.svg.
+
+Fichier CSS modifié :
+assets/css/style.css
