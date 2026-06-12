@@ -2,18 +2,18 @@
   <defs>
     <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
       <stop offset="0%" stop-color="#0057B8"/>
-      <stop offset="55%" stop-color="#1E73E8"/>
-      <stop offset="100%" stop-color="#ffffff"/>
+      <stop offset="58%" stop-color="#1E73E8"/>
+      <stop offset="100%" stop-color="#F4F9FF"/>
     </linearGradient>
-    <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse">
-      <path d="M 80 0 L 0 0 0 80" fill="none" stroke="rgba(255,255,255,.18)" stroke-width="2"/>
+    <pattern id="grid" width="96" height="96" patternUnits="userSpaceOnUse">
+      <path d="M 96 0 L 0 0 0 96" fill="none" stroke="rgba(255,255,255,.16)" stroke-width="2"/>
     </pattern>
   </defs>
   <rect width="1600" height="900" fill="url(#g)"/>
   <rect width="1600" height="900" fill="url(#grid)"/>
-  <path d="M0 700 C260 610 360 760 610 670 C880 572 1010 610 1200 520 C1380 436 1480 460 1600 390 L1600 900 L0 900 Z" fill="rgba(255,255,255,.28)"/>
-  <path d="M150 610 L360 470 L560 610 Z" fill="rgba(255,255,255,.40)"/>
-  <path d="M750 620 L980 430 L1230 620 Z" fill="rgba(255,255,255,.32)"/>
-  <text x="120" y="190" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="800" fill="#ffffff">Fédération du Nord</text>
-  <text x="120" y="270" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700" fill="#ffffff">Les Républicains • 59</text>
+  <circle cx="1270" cy="190" r="210" fill="rgba(255,255,255,.16)"/>
+  <circle cx="1410" cy="680" r="340" fill="rgba(255,255,255,.20)"/>
+  <path d="M0 710 C280 620 380 760 650 660 C930 555 1050 615 1240 515 C1400 430 1500 455 1600 392 L1600 900 L0 900 Z" fill="rgba(255,255,255,.30)"/>
+  <text x="120" y="205" font-family="Inter, Arial, sans-serif" font-size="74" font-weight="900" fill="#ffffff">Fédération du Nord</text>
+  <text x="120" y="286" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="800" fill="#ffffff">Les Républicains • 59</text>
 </svg>

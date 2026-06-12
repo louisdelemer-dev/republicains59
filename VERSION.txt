@@ -1,15 +1,16 @@
-Republicains59 - LR National Style v3
-Date de génération : 2026-06-12 14:56
+Republicains59 - Style harmonisé v4
+Date de génération : 2026-06-12 15:07
 
-Changements visibles :
-- remplacement complet de la feuille de style principale ;
-- bleu LR plus lumineux : #0057B8 ;
-- police globale : Inter ;
-- hero plus proche de l'univers republicains.fr ;
-- bouton Adhérer / Militer élargi ;
-- animations fluides avec cubic-bezier et translate3d ;
-- signature graphique 59 ;
-- asset SVG ajouté : assets/img/lr-nord-hero.svg.
+Corrections principales :
+- grille de cartes harmonisée ;
+- hauteurs de cartes cohérentes ;
+- images en ratio 16/9 ;
+- typographie Inter uniformisée ;
+- titres, sous-titres, textes et métadonnées alignés sur une échelle unique ;
+- boutons et CTA homogènes ;
+- espacements de sections unifiés ;
+- animations plus fluides et moins hachées ;
+- bleu LR lumineux conservé.
 
-Fichier CSS modifié :
+Fichier principal modifié :
 assets/css/style.css
