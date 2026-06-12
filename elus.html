@@ -1,2 +1,133 @@
-<!DOCTYPE html><html lang="fr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Nos élus - Les Républicains du Nord</title><meta name="description" content="Site de la Fédération du Nord des Républicains."><link rel="stylesheet" href="assets/css/style.css"><link rel="icon" href="assets/img/logo-federation-nord.png">    <!-- Version v4 harmonisée - cartes, typographies, espacements -->
-</head><body><header class="site-header"><div class="container header-inner"><a class="brand" href="index.html" aria-label="Accueil Les Républicains du Nord"><img class="brand-logo" src="assets/img/logo-federation-nord.png" alt="Les Républicains - Fédération du Nord"></a><button class="menu-toggle" aria-label="Ouvrir le menu">☰</button><nav class="main-nav"><a href="index.html">Accueil</a><a href="federation.html">La Fédération</a><a href="elus.html">Nos élus</a><a href="idees.html">Nos idées</a><a href="actualites.html">Actualités</a><a href="agenda.html">Agenda</a><a href="contact.html">Contact</a><a class="btn btn-small btn-blue" href="adherer.html">Adhérer</a></nav></div></header><main><section class="page-hero"><div class="container"><p class="eyebrow">Les Républicains du Nord</p><h1>Nos élus</h1><p class="lead">Les élus républicains du Nord agissent chaque jour au service des habitants et des communes.</p></div></section><section class="content"><div class="container prose"><img class="feature-image" src="assets/img/photo-territoires.jpg" alt="Illustration - Nos élus"><div class="info-box"><h2>Nos élus</h2><p>Cette page pourra présenter les parlementaires, conseillers régionaux, conseillers départementaux, maires et élus municipaux.</p><p>Les contenus définitifs pourront être enrichis directement depuis GitHub en modifiant ce fichier HTML.</p></div></div></section></main><footer class="site-footer"><div class="container footer-grid"><div><strong>Les Républicains du Nord</strong><p>Fédération départementale du Nord.</p></div><div><a href="contact.html">Contact</a><a href="mentions-legales.html">Mentions légales</a><a href="https://republicains.fr">Site national</a></div></div></footer><script src="assets/js/main.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nos élus | Les Républicains du Nord</title>
+    <meta name="description" content="Site de la Fédération du Nord des Républicains : actualités, élus, agenda, idées et engagement militant.">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+    <header class="site-header">
+        <div class="topbar">
+            <div class="container topbar__inner">
+                <span>Fédération du Nord des Républicains</span>
+                <span>Département 59</span>
+            </div>
+        </div>
+
+        <div class="container header__inner">
+            <a class="brand" href="index.html" aria-label="Retour à l'accueil">
+                <img src="assets/img/logo-lr-nord.png" alt="Les Républicains - Fédération du Nord" onerror="this.style.display='none'">
+                <span class="brand__text">
+                    <strong>Les Républicains</strong>
+                    <small>Fédération du Nord</small>
+                </span>
+            </a>
+
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="navigation-principale">
+                <span>Menu</span>
+            </button>
+
+            <nav class="nav" id="navigation-principale" aria-label="Navigation principale">
+                    <a href="index.html">Accueil</a>
+                    <a href="federation.html">La Fédération</a>
+                    <a class="is-active" href="elus.html">Nos élus</a>
+                    <a href="idees.html">Nos idées</a>
+                    <a href="actualites.html">Actualités</a>
+                    <a href="agenda.html">Agenda</a>
+                    <a class="nav__cta" href="adherer.html">Adhérer / Militer</a>
+                    <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="contenu">
+        <section class="hero">
+            <div class="container hero__inner">
+                <p class="hero__badge">Fédération du Nord • 59</p>
+                <h1>Nos élus</h1>
+                <p class="hero__lead">Des femmes et des hommes engagés pour défendre les Nordistes et leurs territoires.</p>
+
+                <div class="hero__actions">
+                    <a class="btn btn--red" href="adherer.html">Adhérer / Militer</a>
+                    <a class="btn btn--ghost" href="contact.html">Contacter la fédération</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container section__header">
+                <p class="eyebrow">Représentation</p>
+                <h2>Des élus engagés au service des Nordistes.</h2>
+                <p class="section__lead">
+                    Cette page a vocation à présenter les parlementaires, conseillers régionaux, conseillers départementaux, maires et élus municipaux.
+                </p>
+            </div>
+
+            <div class="container card-grid">
+                <article class="profile-card">
+                    <div class="profile-card__photo">LR</div>
+                    <div class="profile-card__body">
+                        <h3>Parlementaires</h3>
+                        <p>Députés et sénateurs engagés pour défendre les territoires du Nord.</p>
+                    </div>
+                </article>
+
+                <article class="profile-card">
+                    <div class="profile-card__photo">59</div>
+                    <div class="profile-card__body">
+                        <h3>Élus locaux</h3>
+                        <p>Conseillers régionaux, départementaux, maires et élus municipaux.</p>
+                    </div>
+                </article>
+
+                <article class="profile-card">
+                    <div class="profile-card__photo">JR</div>
+                    <div class="profile-card__body">
+                        <h3>Jeunes engagés</h3>
+                        <p>Responsables et militants jeunes mobilisés dans le département.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer__grid">
+            <div>
+                <h2>Les Républicains du Nord</h2>
+                <p>Une fédération engagée pour défendre les idées de la droite républicaine dans tous les territoires du Nord.</p>
+            </div>
+
+            <div>
+                <h3>Navigation</h3>
+                <ul class="footer__links">
+                    <li><a href="federation.html">La Fédération</a></li>
+                    <li><a href="elus.html">Nos élus</a></li>
+                    <li><a href="actualites.html">Actualités</a></li>
+                    <li><a href="agenda.html">Agenda</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>Agir</h3>
+                <ul class="footer__links">
+                    <li><a href="adherer.html">Adhérer</a></li>
+                    <li><a href="contact.html">Nous contacter</a></li>
+                    <li><a href="mentions-legales.html">Mentions légales</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container footer__bottom">
+            <p>© 2026 Les Républicains du Nord. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

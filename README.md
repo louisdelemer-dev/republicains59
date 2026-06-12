@@ -1,16 +1,31 @@
-# Les Républicains du Nord - site statique
+# Les Républicains du Nord — Refonte code source v6
 
-Site prêt pour GitHub Pages.
+Ce pack contient une refonte complète du code source, page par page.
 
-## Publication
-1. Déposer tous les fichiers à la racine du dépôt `republicains59`.
-2. Aller dans **Settings > Pages**.
-3. Source : **Deploy from a branch**.
-4. Branch : `main`, dossier `/root`.
+## Structure
 
-## Personnalisation intégrée
-- Logo de la Fédération du Nord dans `assets/img/logo-federation-nord.png`.
-- Photos d’illustration dans `assets/img/`.
-- Style visuel plus distinctif : bande tricolore, grands aplats, cartes accentuées, signature “59”.
-- Police globale : **Manrope**.
-- Animations fluidifiées via transitions GPU, ombres allégées et respect de `prefers-reduced-motion`.
+- `index.html`
+- `federation.html`
+- `elus.html`
+- `idees.html`
+- `actualites.html`
+- `agenda.html`
+- `adherer.html`
+- `contact.html`
+- `mentions-legales.html`
+- `assets/css/style.css`
+- `assets/js/main.js`
+- `assets/img/`
+
+## Objectif
+
+Le code est désormais :
+- lisible ;
+- indenté ;
+- organisé par composants ;
+- plus simple à modifier ;
+- cohérent entre les pages.
+
+## Publication GitHub Pages
+
+Déposer le contenu du ZIP à la racine du dépôt, puis activer GitHub Pages sur la branche `main`.

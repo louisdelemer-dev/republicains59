@@ -1,16 +1,10 @@
-Republicains59 - Style harmonisé v4
-Date de génération : 2026-06-12 15:07
+Republicains59 - Refonte code source v6
+Date : 2026-06-12 15:21
 
-Corrections principales :
-- grille de cartes harmonisée ;
-- hauteurs de cartes cohérentes ;
-- images en ratio 16/9 ;
-- typographie Inter uniformisée ;
-- titres, sous-titres, textes et métadonnées alignés sur une échelle unique ;
-- boutons et CTA homogènes ;
-- espacements de sections unifiés ;
-- animations plus fluides et moins hachées ;
-- bleu LR lumineux conservé.
-
-Fichier principal modifié :
-assets/css/style.css
+Refonte complète :
+- HTML réécrit page par page.
+- CSS structuré par sections.
+- JavaScript propre pour le menu mobile.
+- Grilles, cartes, typographies et espacements harmonisés.
+- Assets existants conservés.
+- Illustrations SVG ajoutées.
