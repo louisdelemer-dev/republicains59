@@ -1,31 +1,9 @@
-# Les Républicains du Nord — Refonte code source v6
+# Les Républicains — Fédération du Nord
 
-Ce pack contient une refonte complète du code source, page par page.
+Refonte complète 2026. Site statique HTML/CSS/JavaScript compatible GitHub Pages.
 
-## Structure
+## Pages
+Accueil, Fédération, Élus, Territoires, Actualités, Agenda, Adhérer, Contact, Mentions légales.
 
-- `index.html`
-- `federation.html`
-- `elus.html`
-- `idees.html`
-- `actualites.html`
-- `agenda.html`
-- `adherer.html`
-- `contact.html`
-- `mentions-legales.html`
-- `assets/css/style.css`
-- `assets/js/main.js`
-- `assets/img/`
-
-## Objectif
-
-Le code est désormais :
-- lisible ;
-- indenté ;
-- organisé par composants ;
-- plus simple à modifier ;
-- cohérent entre les pages.
-
-## Publication GitHub Pages
-
-Déposer le contenu du ZIP à la racine du dépôt, puis activer GitHub Pages sur la branche `main`.
+## Mise en ligne
+Décompresser à la racine du dépôt GitHub puis pousser les fichiers. GitHub Pages peut servir directement la branche principale.

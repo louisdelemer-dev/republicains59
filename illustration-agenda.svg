@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+    <rect width="1200" height="675" fill="#F4F9FF"/>
+    <circle cx="960" cy="120" r="170" fill="#E31E24" opacity=".14"/>
+    <circle cx="220" cy="560" r="230" fill="#E31E24" opacity=".10"/>
+    <path d="M0 520 C220 430 330 600 560 500 C780 405 920 470 1200 335 L1200 675 L0 675 Z" fill="#E31E24" opacity=".16"/>
+    <rect x="90" y="92" width="420" height="12" rx="6" fill="#E31E24"/>
+    <text x="90" y="220" font-family="Inter, Arial, sans-serif" font-size="74" font-weight="900" fill="#E31E24">Agenda</text>
+    <text x="92" y="292" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="750" fill="#14213D">Les Républicains du Nord</text>
+</svg>

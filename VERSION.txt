@@ -1,10 +1,1 @@
-Republicains59 - Refonte code source v6
-Date : 2026-06-12 15:21
-
-Refonte complète :
-- HTML réécrit page par page.
-- CSS structuré par sections.
-- JavaScript propre pour le menu mobile.
-- Grilles, cartes, typographies et espacements harmonisés.
-- Assets existants conservés.
-- Illustrations SVG ajoutées.
+Refonte complète — 2026-09-23
